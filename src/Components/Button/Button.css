@@ -1,0 +1,17 @@
+.btn {
+    background-color: var(--action-default);
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: var(--small-radius);
+    padding: .5em 3em;
+}
+
+.btn:hover {
+    background-color: var(--action-default-active);
+}
+
+.width-100 {
+    width: 100%;
+}
+

@@ -1,0 +1,51 @@
+@import url(Assets/Fonts/Inter.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  /* Global Variables (*/
+
+  /*  Colors */
+  --primary: #576746;
+  --secondary: #ECEEE0;
+
+  --light-background: #FAFAFA;
+
+  --action-default: #A8C06C;
+  --action-default-active: #839554;
+  --danger: #C95F5D;
+  --warning: #D07A15;
+
+  --gray: #898989;
+  --light-gray: #F8F8F9;
+
+  /*  Typography */
+  font-family: 'Inter';
+
+
+  /* Corner radiouses */
+  --small-radius: 7px;
+  /*
+  --medium-radius
+  --big-radius
+  */
+
+  /* something something*/
+
+  
+}
+
+body {
+  background-color: var(--primary);
+}
+
+h1 {
+  font-size: 31.25px;
+}
+
+p {
+  font-size: 16px;
+  color: var(--gray);
+}

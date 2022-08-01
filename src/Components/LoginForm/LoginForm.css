@@ -1,0 +1,16 @@
+.login-form, .form_cont {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form {
+    height: 100%;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.login-heading h1 {
+    margin-bottom: .5em;
+}
+
